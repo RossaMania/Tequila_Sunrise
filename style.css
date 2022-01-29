@@ -1,0 +1,488 @@
+a:active,
+a:hover {
+  color: #fff5a5;
+}
+
+#bibliography-link:active,
+#bibliography-link:hover {
+  color: #fff5a5;
+}
+
+body {
+  margin: 0;
+}
+
+#navbar {
+  background: linear-gradient(#fff5a5, #ffaa64, #ff8264, #ff6464);
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+#page-title {
+  color: #ff3f00;
+  font-family: "Itim", cursive;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav-links {
+  margin: 15px 5px;
+  padding: 5px;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.nav-link {
+  color: #da0037;
+  font-family: "Itim", cursive;
+  font-size: 30px;
+  margin: 10px 10px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#main-doc {
+  margin-left: 399px;
+  background: #4c3f91;
+  width: 100%;
+}
+
+.section-title {
+  color: #ff6464;
+  font-family: "Itim", cursive;
+  font-size: 22px;
+  padding: 25px;
+}
+
+.origin-text {
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  color: #fcecdd;
+  padding: 10px;
+  width: 75%;
+}
+
+.making_it-introduction {
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  color: #fcecdd;
+  padding: 10px;
+  width: 60%;
+}
+
+.making_it-instructions {
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  color: #fcecdd;
+  padding: 30px;
+  width: 75%;
+}
+
+.serving_suggestions {
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  color: #fcecdd;
+  padding: 10px;
+  width: 75%;
+}
+
+#img {
+  /*position: relative;
+  display: inline-block;*/
+  height: 650px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  
+}
+
+#highball-img {
+  /*display: inline-block;
+  position: absolute;*/
+  left: 300px;
+  box-shadow: 10px 5px 5px #da0037;
+ 
+}
+
+#garnished-img {
+  height: 217px;
+  width: 200px;
+  /*display: inline-block;
+  position: absolute;*/
+  left: 700px;
+  box-shadow: 10px 5px 5px #da0037;
+  
+}
+
+#remixes {
+  margin-top: 0px;
+}
+
+.remixes-introduction {
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  color: #fcecdd;
+  padding: 10px;
+  width: 75%;
+}
+
+.remixes-list {
+  list-style: none;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  color: #fcecdd;
+  padding: 10px;
+  width: 75%;
+  text-align: center;
+}
+
+span {
+  color: #fff5a5;
+  font-style: bold;
+}
+
+.conversation_starters-list {
+  list-style: none;
+}
+
+.fact {
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  color: #fcecdd;
+  padding: 5px;
+  width: 75%;
+}
+
+.bibliography-link__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bibliography-link {
+  margin: 25px;
+}
+
+#bibliography-link {
+  text-decoration: none;
+  color: #ffaa64;
+  font-family: "Questrial", sans-serif;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  #navbar {
+    background: linear-gradient(#fff5a5, #ffaa64, #ff8264, #ff6464);
+    height: 60px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+  }
+
+  #page-title {
+    color: #ff3f00;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    width: auto;
+  }
+
+  .nav-link {
+    color: #da0037;
+    font-size: 14px;
+    margin: 0px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  #main-doc {
+    background: #4c3f91;
+    width: 100%;
+    margin-top: 58px;
+    margin-left: 0px;
+  }
+
+  .section-title {
+    color: #ff6464;
+    font-family: "Itim", cursive;
+    font-size: 20px;
+    padding: 25px;
+  }
+
+  .origin-text {
+    font-family: "Questrial", sans-serif;
+    font-size: 14px;
+    color: #fcecdd;
+    padding: 10px;
+    width: 75%;
+  }
+
+  .making_it-introduction {
+    font-family: "Questrial", sans-serif;
+    font-size: 14px;
+    color: #fcecdd;
+    padding: 10px;
+    width: 60%;
+  }
+
+  .making_it-instructions {
+    font-family: "Questrial", sans-serif;
+    font-size: 14px;
+    color: #fcecdd;
+    padding: 30px;
+    width: 75%;
+  }
+
+  .serving_suggestions {
+    font-family: "Questrial", sans-serif;
+    font-size: 14px;
+    color: #fcecdd;
+    padding: 10px;
+    width: 75%;
+  }
+
+  #img {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+
+  #highball-img {
+    width: 240px;
+  }
+
+  #garnished-img {
+    width: 200px;
+  }
+
+  #remixes {
+    margin: 0;
+  }
+
+  .remixes-introduction {
+    font-family: "Questrial", sans-serif;
+    font-size: 14px;
+    color: #fcecdd;
+    padding: 10px;
+    width: 75%;
+  }
+
+  .remixes-list {
+    list-style: none;
+    font-family: "Questrial", sans-serif;
+    font-size: 14px;
+    color: #fcecdd;
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+  }
+
+  .conversation_starters-list {
+    list-style: none;
+  }
+
+  .fact {
+    font-family: "Questrial", sans-serif;
+    font-size: 14px;
+    color: #fcecdd;
+    padding: 5px;
+    width: 75%;
+  }
+
+  .bibliography-link__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bibliography-link {
+    margin: 15px;
+  }
+
+  #bibliography-link {
+    text-decoration: none;
+    color: #ffaa64;
+    font-family: "Questrial", sans-serif;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    margin: 0;
+  }
+
+  #navbar {
+    background: linear-gradient(#fff5a5, #ffaa64, #ff8264, #ff6464);
+    height: 60px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+  }
+
+  #page-title {
+    color: #ff3f00;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px;
+  }
+
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    width: auto;
+  }
+
+  .nav-link {
+    color: #da0037;
+    font-size: 10px;
+    margin: 0px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  #main-doc {
+    background: #4c3f91;
+    width: 100%;
+    margin-top: 58px;
+    margin-left: 0px;
+  }
+
+  .section-title {
+    color: #ff6464;
+    font-family: "Itim", cursive;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .origin-text {
+    font-family: "Questrial", sans-serif;
+    font-size: 10px;
+    color: #fcecdd;
+    padding: 10px;
+    width: 75%;
+  }
+
+  .making_it-introduction {
+    font-family: "Questrial", sans-serif;
+    font-size: 10px;
+    color: #fcecdd;
+    padding: 10px;
+    width: 60%;
+  }
+
+  .making_it-instructions {
+    font-family: "Questrial", sans-serif;
+    font-size: 10px;
+    color: #fcecdd;
+    padding: 30px;
+    width: 75%;
+  }
+
+  .serving_suggestions {
+    font-family: "Questrial", sans-serif;
+    font-size: 10px;
+    color: #fcecdd;
+    padding: 10px;
+    width: 75%;
+  }
+
+  #img {
+    display: none;
+  }
+
+  #highball-img {
+    display: none;
+  }
+
+  #garnished-img {
+    display: none;
+  }
+
+  #remixes {
+    margin: 0;
+  }
+
+  .remixes-introduction {
+    font-family: "Questrial", sans-serif;
+    font-size: 10px;
+    color: #fcecdd;
+    padding: 10px;
+    width: 75%;
+  }
+
+  .remixes-list {
+    list-style: none;
+    font-family: "Questrial", sans-serif;
+    font-size: 10px;
+    color: #fcecdd;
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+  }
+
+  .conversation_starters-list {
+    list-style: none;
+  }
+
+  .fact {
+    font-family: "Questrial", sans-serif;
+    font-size: 10px;
+    color: #fcecdd;
+    padding: 5px;
+    width: 75%;
+  }
+
+  .bibliography-link__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bibliography-link {
+    margin: 7px;
+  }
+
+  #bibliography-link {
+    text-decoration: none;
+    color: #ffaa64;
+    font-family: "Questrial", sans-serif;
+    font-size: 10px;
+  }
+}
