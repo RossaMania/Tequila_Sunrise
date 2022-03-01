@@ -393,7 +393,7 @@ span {
 
   .origin-text {
     font-family: "Questrial", sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     color: #fcecdd;
     padding: 10px;
     width: 75%;
@@ -401,7 +401,7 @@ span {
 
   .making_it-introduction {
     font-family: "Questrial", sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     color: #fcecdd;
     padding: 10px;
     width: 60%;
@@ -409,7 +409,7 @@ span {
 
   .making_it-instructions {
     font-family: "Questrial", sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     color: #fcecdd;
     padding: 30px;
     width: 75%;
@@ -417,7 +417,7 @@ span {
 
   .serving_suggestions {
     font-family: "Questrial", sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     color: #fcecdd;
     padding: 10px;
     width: 75%;
@@ -441,7 +441,7 @@ span {
 
   .remixes-introduction {
     font-family: "Questrial", sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     color: #fcecdd;
     padding: 10px;
     width: 75%;
@@ -450,7 +450,7 @@ span {
   .remixes-list {
     list-style: none;
     font-family: "Questrial", sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     color: #fcecdd;
     padding: 10px;
     width: 75%;
@@ -463,7 +463,7 @@ span {
 
   .fact {
     font-family: "Questrial", sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     color: #fcecdd;
     padding: 5px;
     width: 75%;
@@ -483,6 +483,6 @@ span {
     text-decoration: none;
     color: #ffaa64;
     font-family: "Questrial", sans-serif;
-    font-size: 10px;
+    font-size: 14px;
   }
 }
