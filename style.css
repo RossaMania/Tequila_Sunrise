@@ -57,6 +57,7 @@ body {
   font-family: "Itim", cursive;
   font-size: 22px;
   padding: 25px;
+  text-shadow: 2px 2px #da0037;
 }
 
 .origin-text {
@@ -231,6 +232,7 @@ span {
     font-family: "Itim", cursive;
     font-size: 20px;
     padding: 25px;
+    text-shadow: 2px 2px #da0037;
   }
 
   .origin-text {
@@ -389,6 +391,7 @@ span {
     font-family: "Itim", cursive;
     font-size: 18px;
     padding: 20px;
+    text-shadow: 2px 2px #da0037;
   }
 
   .origin-text {
